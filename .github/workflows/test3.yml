@@ -1,4 +1,4 @@
-name: Test 3
+name: Test 3.1
 on:
   push:
   pull_request:
@@ -6,10 +6,10 @@ on:
       - master
 
 jobs:
-  test-job-3:
+  test-job-31:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - name: Test all
         run: |
-          echo "Howdy 3!"
+          echo "Howdy 3.1!"
