@@ -1,0 +1,15 @@
+name: Test 2
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test-job-2:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Test all
+        run: |
+          echo "Howdy!"
