@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: Test all
         run: |
-          echo "Howdy 5!"
+          echo "Howdy 5  !"
